@@ -1,11 +1,11 @@
 {
   "Version": "1.0.1",
   "ReleaseNotes": "TESTE UPDATE ONLINE @VEM_BRABO",
-  "UrlUpdate": "https://kiritosshxd.github.io/Conecta4g_site/UrlUpdate",
-  "Sms": "https://kiritosshxd.github.io/Conecta4g_site/UrlSms",
-  "EmailFeedback": "kiritosshxd5733@gmail.com",
-  "UrlContato": "https://t.me/kiritosshxd",
-  "UrlTermos": "https://kiritosshxd.github.io/Conecta4g_site/termos.html",
+  "UrlUpdate": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlUpdate",
+  "Sms": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlSms",
+  "EmailFeedback": "ultranetvpn@gmail.com",
+  "UrlContato": "https://t.me/VEM_BRABO",
+  "UrlTermos": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/TERMOS%20DE%20USO.html",
   "Udp": [
     {
       "Porta": "7300"
@@ -25,23 +25,23 @@
   ],
   "Servers": [
     {
-      "Name": "CHECK | PLUS",
+      "Name": "SERVIDOR (BR01) ONLINE",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "premium01.conecta4g.xyz",
+      "ServerIP": "och.atecubanos.tk",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
     },
     {
-      "Name": "PREMIUM 02 | PLUS",
+      "Name": "SERVIDOR FREE (BR02) ONLINE",
       "TYPE": "free",
       "FLAG": "br.png",
-      "ServerIP": "premium02.conecta4g.xyz",
+      "ServerIP": "och.atecubanos.tk",
       "ServerPort": "22",
       "SSLPort": "443",
-      "USER": "teste006",
+      "USER": "BRABO",
       "PASS": "1234"
     }
   ],
