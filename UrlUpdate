@@ -6,6 +6,7 @@
   "EmailFeedback": "ultranetvpn@gmail.com",
   "UrlContato": "https://t.me/VEM_BRABO",
   "UrlTermos": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/TERMOS%20DE%20USO.html",
+  "CheckUser": "true",
   "Udp": [
     {
       "Porta": "7100"
@@ -25,20 +26,11 @@
   ],
   "Servers": [
     {
-      "Name": "SERVIDOR (BR01) ONLINE",
+      "Name": "SERVIDOR BR",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "och.atecubanos.tk",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "SERVIDOR FREE (BR02) ONLINE",
-      "TYPE": "free",
-      "FLAG": "br.png",
-      "ServerIP": "och.atecubanos.tk",
+      "CheckUser": "http://179.127.16.155:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -77,11 +69,21 @@
       "Info": "Proxy"
     },
     {
-      "Name": "CLARO SEM PROMOÇÃO",
+      "Name": "CLARO LENTA SEM PROMOÇÃO",
       "FLAG": "claro",
       "Payload": "GET sni://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]X-Forward-Host: och.atecubanos.tk[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "104.16.57.6",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO RAPIDA SEM PROMOÇÃO",
+      "FLAG": "claro",
+      "Payload": "GET wss://content.akross.com.br/ HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "content.akross.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
