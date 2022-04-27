@@ -1,6 +1,6 @@
 {
   "Version": "1.0.1",
-  "ReleaseNotes": "TESTE UPDATE ONLINE @VEM_BRABO, CONEXÃO TIM SSL IP+BUGHOST ADICIONADA",
+  "ReleaseNotes": "@VEM_BRABO, CONEXÃO TIM SSL IP+BUGHOST ADICIONADA,CLARO RAPIDA FUNCIONAL",
   "UrlUpdate": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlSms",
   "EmailFeedback": "ultranetvpn@gmail.com",
@@ -89,11 +89,11 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO RAPIDA SEM PROMOÇÃO",
+      "Name": "CLARO RAPIDA SEM DESCOMPLICA",
       "FLAG": "claro",
-      "Payload": "GET wss://content.akross.com.br/ HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "content.akross.com.br",
-      "TlsIP": "content.akross.com.br",
+      "Payload": "GET wss://no.descomplica.com.br/ HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "no.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
