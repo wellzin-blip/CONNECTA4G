@@ -7,7 +7,8 @@
   "UrlContato": "https://t.me/VEM_BRABO",
   "UrlTermos": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/TERMOS%20DE%20USO.html",
   "CheckUser": "true",
-  "Udp": "UdpPort": "7300;7400;7500;7600;7700",
+  "CheckUser": "true",
+  "UdpPort": "7300;7400;7500;7600;7700",
   "Servers": [
     {
       "Name": "SERVIDOR BR",
