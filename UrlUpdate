@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.2",
+  "Version": "1.0.1",
   "ReleaseNotes": "@VEM_BRABO, CONEXÃO TIM SSL IP+BUGHOST ADICIONADA,CLARO RAPIDA FUNCIONAL",
   "UrlUpdate": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlSms",
@@ -7,23 +7,7 @@
   "UrlContato": "https://t.me/VEM_BRABO",
   "UrlTermos": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/TERMOS%20DE%20USO.html",
   "CheckUser": "true",
-  "Udp": [
-    {
-      "Porta": "7100"
-    },
-    {
-      "Porta": "7200"
-    },
-    {
-      "Porta": "7300"
-    },
-    {
-      "Porta": "7400"
-    },
-    {
-      "Porta": "7500"
-    }
-  ],
+  "Udp": "UdpPort": "7300;7400;7500;7600;7700",
   "Servers": [
     {
       "Name": "SERVIDOR BR",
