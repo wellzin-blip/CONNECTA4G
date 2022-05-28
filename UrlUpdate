@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "ReleaseNotes": "@VEM_BRABO, CONEXÃO TIM SSL IP+BUGHOST ADICIONADA,CLARO RAPIDA FUNCIONAL",
   "UrlUpdate": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlSms",
@@ -22,73 +22,113 @@
       "PASS": ""
     }
   ],
-  "Networks": [
-    {
-      "Name": "VIVO - CLARO - TIM - OI",
-      "FLAG": "vivo",
-      "Payload": "GET sni://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]X-Forward-Host: och.atecubanos.tk[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "104.16.57.6",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "VIVO DIRECT",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "104.16.57.6",
-      "ProxyIP": "",
-      "ProxyPort": "80",
-      "Info": "Direct"
-    },
-    {
-      "Name": "TIM - VIVO",
+"Networks": [
+   {
+      "Name": "🔵TIM [01]",
       "FLAG": "tim",
-      "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: och.atecubanos.tk [crlf]X-Forward-Host: och.atecubanos.tk[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf] GET [host_port][protocol][crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.18.94",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "CLARO LENTA SEM PROMOÇÃO",
-      "FLAG": "claro",
-      "Payload": "GET sni://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]X-Forward-Host: och.atecubanos.tk[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "104.16.57.6",
+      "Payload": "GET wss://static.r4you.co  HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "static.r4you.co",
+      "TlsIP": "static.r4you.co",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
-    },
+   },
     {
-      "Name": "TIM SSL IP + BUGHOST",
+    "Name": "🔵TIM [02]",
       "FLAG": "tim",
-      "Payload": "GET wss://content.akross.com.br/ HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "content.akross.com.br",
+      "Payload": "GET wss://cdnjs.cloudflare.com  HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "cdnjs.cloudflare.com",
       "TlsIP": "104.16.19.94",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
-    },
+   },
     {
-      "Name": "CLARO RAPIDA SEM DESCOMPLICA",
+      "Name": "🔵TIM [03]",
+      "FLAG": "tim",
+      "Payload": "GET wss://static.r4you.co  HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "static.r4you.co",
+      "TlsIP": "static.r4you.co",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+    {
+      "Name": "🟣VIVO [01]",
+      "FLAG": "vivo",
+      "Payload": "GET wss://money-staging.infinitepay.io/ HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "money-staging.infinitepay.io",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+    {
+      "Name": "🟣VIVO [02]",
+      "FLAG": "vivo",
+      "Payload": "GET wss://carrinho-pos-familia.vivo.com.br// HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "carrinho-pos-familia.vivo.com.br",
+      "TlsIP": "104.18.6.80",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+    {
+      "Name": "🟣VIVO [03]",
+      "FLAG": "vivo",
+      "Payload": "GET wss://portaljud.vivo.com.br// HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "portaljud.vivo.com.br",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+    {
+      "Name": "🔴CLARO [01]",
       "FLAG": "claro",
-      "Payload": "GET wss://no.descomplica.com.br/ HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "no.descomplica.com.br",
-      "TlsIP": "no.descomplica.com.br",
+      "Payload": "GET wss://boom4u.com.br/ HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "boom4u.com.br",
+      "TlsIP": "boom4u.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-    },
+   },
     {
-      "Name": "OI - VIVO",
+      "Name": "🔴CLARO [02]",
+      "FLAG": "claro",
+      "Payload": "GET wss://www.boom4u.com.br/ HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "www.boom4u.com.br",
+      "TlsIP": "www.boom4u.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+   },
+    {
+      "Name": "🔴CLARO [03]",
+      "FLAG": "claro",
+      "Payload": "GET wss://www.boom4u.com.br/ HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "www.boom4u.com.br",
+      "TlsIP": "172.67.201.105",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+    {
+      "Name": "🟡OI [01]",
       "FLAG": "oi",
-      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "104.16.57.6",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: och.atecubanos.tk\nUpgrade: ws\n\n",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "www.hbogo.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+   },
+    {
+      "Name": "🟡OI [02]",
+      "FLAG": "oi",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: och.atecubanos.tk\nUpgrade: ws\n\n",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "104.16.53.91",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
