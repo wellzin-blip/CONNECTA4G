@@ -8,14 +8,14 @@
   "UrlTermos": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/TERMOS%20DE%20USO.html",
   "CheckUser": "true",
   "CheckUser": "true",
-  "UdpPort": "7300;7400;7500;7600;7700",
+  "UdpPort": "7100;7200;7300;7400;7500;7600;7700",
   "Servers": [
     {
       "Name": "SERVIDOR BR",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "och.atecubanos.tk",
-      "CheckUser": "http://179.127.16.155:5454/checkUser",
+      "CheckUser": "http://144.22.249.224:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -24,7 +24,7 @@
   ],
 "Networks": [
    {
-      "Name": "🔵TIM [01]",
+      "Name": "🔵 [01]",
       "FLAG": "tim",
       "Payload": "GET wss://static.r4you.co  HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "static.r4you.co",
@@ -34,7 +34,7 @@
       "Info": "Tlsws"
    },
     {
-    "Name": "🔵TIM [02]",
+    "Name": "🔵 [02]",
       "FLAG": "tim",
       "Payload": "GET wss://cdnjs.cloudflare.com  HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "cdnjs.cloudflare.com",
@@ -44,7 +44,7 @@
       "Info": "Tlsws"
    },
     {
-      "Name": "🔵TIM [03]",
+      "Name": "🔵 [03]",
       "FLAG": "tim",
       "Payload": "GET wss://static.r4you.co  HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "static.r4you.co",
@@ -54,7 +54,7 @@
       "Info": "Tlsws"
    },
     {
-      "Name": "🟣VIVO [01]",
+      "Name": "🟣 [01]",
       "FLAG": "vivo",
       "Payload": "GET wss://money-staging.infinitepay.io/ HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "money-staging.infinitepay.io",
@@ -64,7 +64,7 @@
       "Info": "Tlsws"
    },
     {
-      "Name": "🟣VIVO [02]",
+      "Name": "🟣 [02]",
       "FLAG": "vivo",
       "Payload": "GET wss://carrinho-pos-familia.vivo.com.br// HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "carrinho-pos-familia.vivo.com.br",
@@ -74,7 +74,7 @@
       "Info": "Tlsws"
    },
     {
-      "Name": "🟣VIVO [03]",
+      "Name": "🟣 [03]",
       "FLAG": "vivo",
       "Payload": "GET wss://portaljud.vivo.com.br// HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "portaljud.vivo.com.br",
@@ -84,7 +84,7 @@
       "Info": "Tlsws"
    },
     {
-      "Name": "🔴CLARO [01]",
+      "Name": "🔴 [01]",
       "FLAG": "claro",
       "Payload": "GET wss://boom4u.com.br/ HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "boom4u.com.br",
@@ -94,7 +94,7 @@
       "Info": "Tlsws"
    },
     {
-      "Name": "🔴CLARO [02]",
+      "Name": "🔴 [02]",
       "FLAG": "claro",
       "Payload": "GET wss://www.boom4u.com.br/ HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "www.boom4u.com.br",
@@ -104,7 +104,7 @@
       "Info": "Tlsws"
    },
     {
-      "Name": "🔴CLARO [03]",
+      "Name": "🔴 [03]",
       "FLAG": "claro",
       "Payload": "GET wss://www.boom4u.com.br/ HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "www.boom4u.com.br",
@@ -114,7 +114,7 @@
       "Info": "Tlsws"
    },
     {
-      "Name": "🟡OI [01]",
+      "Name": "🟡 [01]",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: och.atecubanos.tk\nUpgrade: ws\n\n",
       "SNI": "www.hbogo.com.br",
@@ -124,7 +124,7 @@
       "Info": "Tlsws"
    },
     {
-      "Name": "🟡OI [02]",
+      "Name": "🟡 [02]",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: och.atecubanos.tk\nUpgrade: ws\n\n",
       "SNI": "www.hbogo.com.br",
