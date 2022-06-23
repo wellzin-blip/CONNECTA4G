@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.3",
+  "Version": "1.0.2",
   "ReleaseNotes": "@VEM_BRABO\nconfig novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlSms",
@@ -51,7 +51,6 @@
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
-    }
     }
   ],
 "Networks": [
