@@ -30,7 +30,7 @@
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
-    }
+    },
     {
       "Name": "SERVIDOR BR2",
       "TYPE": "premium",
@@ -41,6 +41,7 @@
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
+      },
       {
       "Name": "SERVIDOR BR3",
       "TYPE": "premium",
