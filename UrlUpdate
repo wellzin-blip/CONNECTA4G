@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.6",
+  "Version": "1.0.2",
   "ReleaseNotes": "@VEM_BRABO\nconfigs novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlSms",
@@ -15,6 +15,17 @@
       "FLAG": "br.png",
       "ServerIP": "och.atecubanos.tk",
       "CheckUser": "http://144.22.249.224:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "SERVIDOR NATAN",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidorbr2.natan4g.tk",
+      "CheckUser": "http://45.140.193.104:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
