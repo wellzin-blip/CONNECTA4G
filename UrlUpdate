@@ -1,6 +1,6 @@
 {
   "Version": "1.0.2",
-  "ReleaseNotes": "@VEM_BRABO\nconfigs 1 novas para todas as operadoras",
+  "ReleaseNotes": "@VEM_BRABO\nconfig novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlSms",
   "EmailFeedback": "ultranetvpn@gmail.com",
@@ -10,7 +10,7 @@
   "UdpPort": "7100;7200;7300;7400;7500;7600;7700",
   "Servers": [
     {
-      "Name": "SERVIDOR BR",
+      "Name": "SERVIDOR BR BRABO",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "och.atecubanos.tk",
@@ -21,7 +21,18 @@
       "PASS": ""
     },
     {
-      "Name": "SERVIDOR NATAN",
+      "Name": "SERVIDOR BR1",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidorbr1.natan4g.tk",
+      "CheckUser": "http://20.222.179.0:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+    {
+      "Name": "SERVIDOR BR2",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "servidorbr2.natan4g.tk",
@@ -30,6 +41,17 @@
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
+      {
+      "Name": "SERVIDOR BR3",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "servidorbr3.natan4g.tk",
+      "CheckUser": "http://20.124.14.43:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
     }
   ],
 "Networks": [
