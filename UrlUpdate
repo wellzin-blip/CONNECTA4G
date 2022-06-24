@@ -1,6 +1,6 @@
 {
-  "Version": "3.0",
-  "ReleaseNotes": "@VEM_BRABO\nconfig 3.0 novas para todas as operadoras",
+  "Version": "4.0",
+  "ReleaseNotes": "@VEM_BRABO\nconfig 4.0 novas para todas as operadoras",
   "UrlUpdate": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlSms",
   "EmailFeedback": "ultranetvpn@gmail.com",
