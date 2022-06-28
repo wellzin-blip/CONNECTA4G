@@ -63,7 +63,7 @@
         "secondary_dns_server": "8.8.4.4", 
         "sni": "support.pokemon.com", 
         "config_mode": "ssl_proxy", 
-        "url_check_user": "https://www.sc-instagram.com/", 
+        "url_check_user": "http://p-vip.duckdns.org:5000", 
         "config_openvpn": "", 
         "proxy_hostname": "104.24.10.16", 
         "sort_order": 3, 
