@@ -5,7 +5,7 @@
     "next_page": null, 
     "has_prev": false, 
     "has_next": false, 
-    "total": 11, 
+    "total": 12, 
     "current_page": 1, 
     "pages": 1, 
     "results": [
@@ -48,7 +48,7 @@
         "name": "VIVO SPEED", 
         "config_v2ray": "", 
         "server_hostname": "", 
-        "description": "", 
+        "description": "SERVIDOR 01", 
         "username": "", 
         "server_port": 443, 
         "icon_image": "https://i.ibb.co/r2t0Jyd/20220627-181145.png", 
@@ -66,7 +66,7 @@
         "url_check_user": "http://chk-br01.duckdns.org:5000", 
         "config_openvpn": "", 
         "proxy_hostname": "104.24.10.16", 
-        "sort_order": 3, 
+        "sort_order": 1, 
         "id": 5, 
         "proxy_port": 443, 
         "category": {
@@ -76,7 +76,7 @@
           "sort_order": 1, 
           "user_id": 2, 
           "slug": "e5f3da23-dd2d-4871-9a03-59e315080e7c", 
-          "description": ""
+          "description": "SERVIDOR BR01"
         }
       }, 
       {
