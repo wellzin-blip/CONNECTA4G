@@ -313,16 +313,16 @@
   "url_check_user": "http://p-vip.duckdns.org:5000",
   "config_openvpn": "",
   "proxy_hostname": "104.24.10.16",
-  "sort_order": 2,
-  "id": 2,
+  "sort_order": 1,
+  "id": 9,
   "proxy_port": 443,
   "category": 
   { 
   "name": "SSH VIVO2",
-    "id": 1,
+    "id": 5,
     "status": "ACTIVE",
-    "sort_order": 1,
-    "user_id": 1,
+    "sort_order": 5,
+    "user_id": 5,
     "slug": "e5f3da23-dd2d-4871-9a03-59e315080e7c",
      "description": "" 
      } 
