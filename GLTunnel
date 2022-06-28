@@ -112,7 +112,7 @@
           "user_id": 3, 
           "slug": "e5f3da23-dd2d-4871-9a03-59e315080e7c", 
           "description": ""
-}
+        }
       },
       {
         "name": "OPERADORA OI", 
@@ -136,7 +136,7 @@
         "url_check_user": "https://www.sc-instagram.com/", 
         "config_openvpn": "", 
         "proxy_hostname": "www.hbogo.com.br", 
-        "sort_order": 1, 
+        "sort_order": 4, 
         "id": 6, 
         "proxy_port": 443, 
         "category": {
@@ -144,9 +144,9 @@
           "id": 210, 
           "status": "ACTIVE", 
           "sort_order": 1, 
-          "user_id": 2, 
+          "user_id": 4, 
           "slug": "e5f3da23-dd2d-4871-9a03-59e315080e7c", 
-          "description": ""
+          "description": "VIP PREMIUM"
         }
       }
     ]
