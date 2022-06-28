@@ -5,7 +5,7 @@
     "next_page": null, 
     "has_prev": false, 
     "has_next": false, 
-    "total": 17, 
+    "total": 10, 
     "current_page": 1, 
     "pages": 1, 
     "results": [
@@ -195,7 +195,7 @@
         "user_id": 2, 
         "password": "", 
         "udp_port": "7300", 
-        "category_id": 1, 
+        "category_id": 2, 
         "v2ray_uuid": "", 
         "primary_dns_server": "8.8.8.8", 
         "CONNECTION sni://static.r4you.co  HTTP/1.1[crlf]Host:vip.multihd4g.com[crlf]Connection: Upgrade, Keep-Alive, HTTP2-Settings > Upgrade: h2c [crlf]User-Agent: [ua][crlf]Upgrade: websocket, HTTP/2, HTTP/3[crlf][crlf]", 
