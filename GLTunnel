@@ -5,7 +5,7 @@
     "next_page": null, 
     "has_prev": false, 
     "has_next": false, 
-    "total": 12, 
+    "total": 13, 
     "current_page": 1, 
     "pages": 1, 
     "results": [
@@ -35,7 +35,7 @@
         "id": 4, 
         "proxy_port": 443, 
         "category": {
-          "name": "SSH", 
+          "name": "BR02", 
           "id": 2, 
           "status": "ACTIVE", 
           "sort_order": 2, 
@@ -48,11 +48,11 @@
         "name": "VIVO SPEED", 
         "config_v2ray": "", 
         "server_hostname": "", 
-        "description": "SERVIDOR 01", 
+        "description": "SERVIDOR BR01", 
         "username": "", 
         "server_port": 443, 
         "icon_image": "https://i.ibb.co/r2t0Jyd/20220627-181145.png", 
-        "user_id": 2, 
+        "user_id": 1, 
         "password": "", 
         "udp_port": "7300", 
         "category_id": 2, 
@@ -74,9 +74,9 @@
           "id": 1, 
           "status": "ACTIVE", 
           "sort_order": 1, 
-          "user_id": 2, 
+          "user_id": 1, 
           "slug": "e5f3da23-dd2d-4871-9a03-59e315080e7c", 
-          "description": "SERVIDOR BR01"
+          "description": ""
         }
       }, 
       {
