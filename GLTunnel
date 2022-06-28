@@ -5,7 +5,7 @@
     "next_page": null, 
     "has_prev": false, 
     "has_next": false, 
-    "total": 10, 
+    "total": 11, 
     "current_page": 1, 
     "pages": 1, 
     "results": [
@@ -70,7 +70,7 @@
         "id": 5, 
         "proxy_port": 443, 
         "category": {
-          "name": "SSH", 
+          "name": "BR01", 
           "id": 1, 
           "status": "ACTIVE", 
           "sort_order": 1, 
