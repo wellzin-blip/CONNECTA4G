@@ -47,7 +47,7 @@
       {
         "name": "OPERADORA VIVO", 
         "config_v2ray": "", 
-        "server_hostname": "", 
+        "server_hostname": "vip.multihd4g.com", 
         "description": "VIP PREMIUM", 
         "username": "", 
         "server_port": 443, 
