@@ -142,7 +142,7 @@
     }, 
     {
       "user_id": 27, 
-      "value": "SEJAM BEM VINDO(A)S AO CLOUD - HAUNT!!", 
+      "value": "SEJAM BEM VINDO(A)S AO VIP NET!!", 
       "id": 5141, 
       "name": "app_message_text"
     }, 
@@ -166,7 +166,7 @@
     }, 
     {
       "user_id": 27, 
-      "value": "https://i.ibb.co/FsJD5bz/20220628-194452.png", 
+      "value": "https://i.ibb.co/ggkXZgM/calendar-removebg-preview.png", 
       "id": 5145, 
       "name": "app_dialog_image_validate"
     }, 
