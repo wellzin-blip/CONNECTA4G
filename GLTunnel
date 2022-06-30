@@ -29,7 +29,7 @@
   "proxy_hostname": "104.24.10.16",
   "sort_order": 1,
   "id": 1,
-  "proxy_port": 80,
+  "proxy_port": 443,
   "category": 
   { 
   "name": "VIP PREMIUM",
