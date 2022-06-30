@@ -9,7 +9,7 @@
   "current_page": 1,
   "pages": 1, "results": [
  { 
-  "name": "🟣 VIVO 2 🇧🇷",
+  "name": "🟣 VIVO 1 🇧🇷",
    "config_v2ray": "",
    "server_hostname": "",
    "description": "[SSL+PROXY]",
@@ -35,7 +35,7 @@
   "proxy_port": 443,
   "category": 
   { 
-  "name": "SSH VIVO",
+  "name": "VIP PREMIUM",
     "id": 1,
     "status": "ACTIVE",
     "sort_order": 1,
