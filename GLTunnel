@@ -29,7 +29,7 @@
   "config_mode": "ssh_proxy",
   "url_check_user": "http://p-vip.duckdns.org:5000",
   "config_openvpn": "",
-  "proxy_hostname": "108.156.83.107",
+  "proxy_hostname": "104.21.11.51",
   "sort_order": 1,
   "id": 1,
   "proxy_port": 80,
