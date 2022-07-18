@@ -46,7 +46,7 @@
   },
    
   { 
-  "name": "🔴 CLARO 1 🇧🇷",
+  "name": "🔴 CLARO 01 🇧🇷",
   "config_v2ray": "",
   "server_hostname": "",
   "description": "[SSL+PROXY]",
@@ -83,7 +83,7 @@
    }, 
    
    { 
-  "name": "🔵 TIM 1 🇧🇷", 
+  "name": "🔵 TIM 01 🇧🇷", 
   "config_v2ray": "", 
   "server_hostname": "", 
   "description": "[SSL+PROXY]", 
@@ -118,7 +118,7 @@
    }, 
    
    { 
-  "name": "🟡 OI 1 🇧🇷", 
+  "name": "🟡 OI 01 🇧🇷", 
   "config_v2ray": "", 
   "server_hostname": "", 
   "description": "[SSH+PROXY]", 
