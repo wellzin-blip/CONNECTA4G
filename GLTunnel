@@ -14,7 +14,7 @@
    "server_hostname": "",
    "description": "[SSH+PROXY]",
    "username": "",
-   "server_port": 443,
+   "server_port": 80,
    "icon_image": "https://i.imgur.com/IVQBeuF.png",
    "user_id": 2,
    "password": "",
