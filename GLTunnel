@@ -85,8 +85,8 @@
    { 
   "name": "🔵 TIM 01 🇧🇷", 
   "config_v2ray": "", 
-  "server_hostname": "", 
-  "description": "[SSL+PROXY]", 
+  "server_hostname": "104.19.239.25", 
+  "description": "[SSL+DIRECT]", 
   "username": "", 
   "server_port": 80, 
   "icon_image": "https://i.imgur.com/Wn26Zn5.png", "user_id": 2,
