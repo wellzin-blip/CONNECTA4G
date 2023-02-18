@@ -95,7 +95,7 @@
   "category_id": 1,
   "v2ray_uuid": "",
   "primary_dns_server": "1.1.1.1", 
-  "payload": "HEAD / HTTP/1.3[crlf]Host:landing.stoodi.com.br[crlf]Expect: 100-continue[lf][lf][split][lf][lf]PUT- // HTTP/1.3[lf]Host: br01.multihd4g.com[lf]Expect: 100-continue[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf]Sec-Websocket-Version:  13[crlf]Sec-WebSocket-Extensions: permessage-deflate, superspeed[crlf]Proxy-Connection: Keep-Alive[crlf][crlf]", 
+  "payload": "GET wss://landing.stoodi.com.br HTTP/1.1[crlf]Host: br01.multihd4g.com[crlf]Upgrade: webscott[crlf][crlf]", 
   "status": "ACTIVE", 
   "secondary_dns_server": "8.8.8.8", 
   "sni": "", 
